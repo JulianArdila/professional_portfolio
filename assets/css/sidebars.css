@@ -1,0 +1,25 @@
+.profile-section,
+.main-shadow {
+  -webkit-box-shadow: 22px 20px 46px -6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 22px 20px 46px -6px rgba(0, 0, 0, 0.24);
+  box-shadow: 22px 20px 46px -6px rgba(0, 0, 0, 0.24);
+  border: 0;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  margin: 18px auto 4px auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
