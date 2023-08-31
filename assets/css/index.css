@@ -1,7 +1,51 @@
 body {
-    background-color: rgb(85, 85, 85);
+    background-color: #000000;
 }
 
 .main-cards {
-    margin: 47px auto;
+    /* height: 100vh; */
+    padding: 15px;
+}
+
+.principal {
+    flex-flow: row-reverse;
+}
+
+.principal-sections {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secundary-sections {
+    min-height: 100vh;
+    padding: 30px 0;
+}
+
+.profile-card {
+    background-color: transparent;
+}
+
+.name {
+    font-size: 71px;
+}
+
+.sub-title {
+    color: #777777;
+}
+
+.profile-card[stuck] {
+    background: red;
+}
+
+.links {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }

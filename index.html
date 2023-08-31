@@ -15,66 +15,80 @@
 
     <link href="assets/css/sidebars.css" rel="stylesheet">
     <link href="assets/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 <body>
     <main class="container-fluid">
-        <div class="row">
-            <aside class="col-sm-3">
-                <div class="card main-cards profile-section ">
-                    <img class="profile-img" src="assets/img/IMG-20211203-WA0006.jpeg" class="card-img-top"
-                        alt="profile">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
+        <div class="row principal">
+            <aside class="col-sm-3 main-cards">
+                <div id="simple-list-example"
+                    class="menu d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+                    <a class="item-menu p-1 active" href="#simple-list-item-1">01 INICIO</a>
+                    <a class="item-menu p-1" href="#simple-list-item-2">02 PERFIL</a>
+                    <a class="item-menu p-1" href="#simple-list-item-3">03 EXPERIENCIA</a>
+                    <a class="item-menu p-1" href="#simple-list-item-4">04 ESTUDIOS</a>
+                    <a class="item-menu p-1" href="#simple-list-item-5">05 APTITUDES</a>
+                    <a class="item-menu p-1" href="#simple-list-item-6">06 PORTAFOLIO</a>
                 </div>
             </aside>
-            <section class="col-sm-6 main-cards">
-                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-                    data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2 main-shadow"
-                    tabindex="0">
-                    <h4 id="scrollspyHeading1">First heading</h4>
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-                    <h4 id="scrollspyHeading2">Second heading</h4>
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-                    <h4 id="scrollspyHeading3">Third heading</h4>
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-                    <div id="scrollspyHeading4">
+            <section class="col-sm-6 main-cards content-section">
+                <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
+                    data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                    <div class="principal-sections" id="simple-list-item-1">
+                        <h1 class="name animate__animated animate__fadeInDown">JULIAN DAVID<br>ARDILA RODRIGUEZ</h1>
+                        <h2 class="sub-title animate__animated animate__fadeInUp">Ingeniero de Sonido, programador fullStack y desarrollador móvil</h2>
+                    </div>
+                    <div class="secundary-sections" id="simple-list-item-2">
+                        <h4>PERFIL</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                    </div>
+                    <div class="secundary-sections" id="simple-list-item-3">
+                        <h4>Third heading</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                    </div>
+                    <div class="secundary-sections" id="simple-list-item-4">
                         <h4>Fourth heading</h4>
                         <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
                             page,
@@ -198,116 +212,324 @@
                             keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
                     </div>
-                    <h4 id="scrollspyHeading5">Fifth heading</h4>
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                    <div class="secundary-sections" id="simple-list-item-5">
+                        <h4>Fifth heading</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
 
-                    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page,
-                        the appropriate navigation link is highlighted. It's repeated throughout the component example.
-                        We keep adding some more example copy here to emphasize the scrolling and highlighting.This is
-                        some placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.This is some
-                        placeholder content for the scrollspy page. Note that as you scroll down the page, the
-                        appropriate navigation link is highlighted. It's repeated throughout the component example. We
-                        keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                    </div>
+                    <div class="secundary-sections" id="simple-list-item-6">
+                        <h4>Fifth heading</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the appropriate navigation link is highlighted. It's repeated throughout the component
+                            example.
+                            We keep adding some more example copy here to emphasize the scrolling and highlighting.This
+                            is
+                            some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.This is
+                            some
+                            placeholder content for the scrollspy page. Note that as you scroll down the page, the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                    </div>
                 </div>
             </section>
             <aside class="col-sm-3 main-cards">
-                <nav id="navbar-example2" class="navbar position-fixed">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#scrollspyHeading1">First</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#scrollspyHeading2">Second</a>
-                        </li>
-
-                        <li class="nav-item"><a class="nav-link" href="#scrollspyHeading3">Third</a></li>
-
-                        <li class="nav-item"><a class="nav-link" href="#scrollspyHeading4">Fourth</a></li>
-
-                        <li class="nav-item"><a class="nav-link" href="#scrollspyHeading5">Fifth</a></li>
-                    </ul>
-                </nav>
+                <div class="card main-cards profile-card profile-section ">
+                    <img class="profile-img" src="assets/img/IMG-20211203-WA0006.jpeg" class="card-img-top"
+                        alt="profile">
+                    <div class="card-body section-info">
+                        <a class="links" Target="_blank" href="https://wa.link/13sr6b"><i class="bi bi-whatsapp"></i>
+                            +57 313
+                            8470360</a><br>
+                        <a class="links" Target="_blank" href="mailto:jdavidardilar@gmail.com"><i
+                                class="bi bi-envelope"></i>
+                            jdavidardilar@gmail.com</a><br>
+                        <a class="links" Target="_blank" href="https://www.instagram.com/_jd_codingsound/"><i
+                                class="bi bi-instagram"></i> _jd_codingsound</a><br>
+                        <a class="links" Target="_blank"
+                            href="https://www.linkedin.com/in/julian-david-ardila-rodriguez-b123b6190/"><i
+                                class="bi bi-linkedin"></i> Julian David Ardila Rodriguez</a><br>
+                    </div>
+                </div>
             </aside>
         </div>
     </main>
