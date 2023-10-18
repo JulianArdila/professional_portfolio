@@ -23,7 +23,7 @@
 .profile-img {
   width: 250px;
   height: 250px;
-  margin: 18px auto 20px auto;
+  margin: 30% auto 20px auto;
   object-fit: cover;
   border-radius: 50%;
   border: solid 5px white;
@@ -55,11 +55,12 @@
   align-items: flex-start;
   padding: 5vh 3vh;
   flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .item-menu {
   color: #a1a1a1;
-  text-decoration:none;
+  text-decoration: none;
   text-transform: uppercase;
   font-weight: 900;
   font-size: x-large;

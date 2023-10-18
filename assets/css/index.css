@@ -35,10 +35,6 @@ body {
     color: #777777;
 }
 
-.profile-card[stuck] {
-    background: red;
-}
-
 .links {
     text-decoration: none;
     color: #fff;
@@ -48,4 +44,40 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.title-section {
+    font-size: -webkit-xxx-large;
+}
+
+.text-section {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.icon-back-1 {
+    position: fixed;
+    bottom: -190px;
+    right: -144px;
+    transform: rotate(180deg);
+}
+
+
+.icon-back-2 {
+    position: fixed;
+    top: -190px;
+    left: -144px;
+    transform: rotate(180deg);
+}
+
+.item-study {
+    padding-top: 20px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-portafolio {
+    background-color: #d7d4d4;
 }
