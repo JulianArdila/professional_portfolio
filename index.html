@@ -24,16 +24,39 @@
 </head>
 
 <body>
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+    <!--
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    -->
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                Navbar text with an inline element
+            </span>
+        </div>
     </div>
-    <img src="assets/img/icons-1.png" class="icon-back-1" alt="" srcset="">
-    <img src="assets/img/icons-2.png" class="icon-back-2" alt="" srcset="">
     <main class="container-fluid">
         <div class="row principal">
-            <aside class="col-sm-3 main-cards">
+            <aside class="col-sm-4 main-cards" id="menu-slidebar">
                 <div id="simple-list-example"
                     class="menu d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
                     <a class="item-menu p-1 active" href="#simple-list-item-1">01 INICIO</a>
@@ -45,33 +68,63 @@
                     <!--
                     <a class="item-menu p-1" href="#simple-list-item-7">07 CONTACTO</a>
                     -->
+                    <div class="contact-info">
+                        <a class="links" Target="_blank" href="https://wa.link/13sr6b"><i class="bi bi-whatsapp"></i>
+                            +57 313
+                            8470360</a><br>
+                        <a class="links" Target="_blank" href="mailto:jdavidardilar@gmail.com"><i
+                                class="bi bi-envelope"></i>
+                            jdavidardilar@gmail.com</a><br>
+                        <a class="links" Target="_blank" href="https://www.instagram.com/_jd_codingsound/"><i
+                                class="bi bi-instagram"></i> _jd_codingsound</a><br>
+                        <a class="links" Target="_blank"
+                            href="https://www.linkedin.com/in/julian-david-ardila-rodriguez-b123b6190/"><i
+                                class="bi bi-linkedin"></i> Julian David Ardila
+                            Rodriguez</a><br>
+                    </div>
                 </div>
+
             </aside>
-            <section class="col-sm-6 main-cards content-section">
+            <section class="col-sm main-cards content-section">
                 <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
                     data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
                     <div class="principal-sections" id="simple-list-item-1">
-                        <h1 class="name animate__animated animate__fadeInDown">JULIAN DAVID<br>ARDILA RODRIGUEZ</h1>
-                        <h2 class="sub-title animate__animated animate__fadeInUp">Ingeniero de Sonido, programador
-                            fullStack y desarrollador móvil.</h2>
+                        <div class="row">
+                            <div class="col-sm principal-title row">
+                                <div class="col-sm">
+                                    <div class="card main-cards profile-card profile-section ">
+                                        <div class="card-body section-info">
+                                            <div class="row">
+                                                <div class="col-sm-4 container-profile-img">
+
+                                                    <img class="profile-img" src="assets/img/FOTO.jpeg"
+                                                        class="card-img-top" alt="profile">
+                                                </div>
+                                                <div class="col-sm-8">
+                                                    <h1 class="name animate__animated animate__fadeInDown">JULIAN
+                                                        DAVID<br>ARDILA
+                                                        RODRIGUEZ</h1>
+                                                    <h2 class="sub-title animate__animated animate__fadeInUp">Ingeniero
+                                                        de Sonido,
+                                                        programador
+                                                        fullStack y desarrollador móvil.</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="secundary-sections" id="simple-list-item-2">
                         <h3 class="title-section">PERFIL</h3>
-                        <p class="text-section">Técnico en Sistemas e Ingeniero de Sonido en décimo semestre de
-                            formación con experiencia como programador Full-Stack; desarrollo de aplicaciones web, API y
-                            móviles híbridas (para los ambientes de Android y iOS). Manejo de los lenguajes PHP, Python,
-                            JavaScript, HTML, CSS y SQL. Se hace uso de los frameworks Django y CodeIgniter (Para el
-                            desarrollo de Backend, Frontend y creación de API); Angular y React (Desarrollo de Frontend)
-                            e Ionic y React Native (Desarrollo de aplicaciones móviles híbridas). Manejo de las
-                            herramientas Git (Control de versiones sobre los proyectos trabajados); AWS y Terraform
-                            (Servicios de Amazon y automatización de creación ambientes de trabajo respectivamente);
-                            MySQL, Firebase y MongoDB (manejo de bases de datos); y Herramientas ofimáticas. En
-                            acústica, realizando mediciones y análisis sobre diferentes entornos con el fin de
-                            caracterizarlos, con manejo de las herramientas de AutoCAD y Sketshup, para el uso de la
-                            herramienta de Ease en su versión 4.3; producción, trabajando y calibración de equipos,
-                            preproducción, producción y posproducción de audio, con los programas de Pro-Tools, Reaper y
-                            Filmora. Participación en eventos en vivo con artistas de alto impacto. Con habilidades como
-                            capacidad de análisis, adaptabilidad, trabajo en equipo y planeación.
+                        <p class="text-section">Soy un técnico en sistemas y un ingeniero de sonido. Tengo experiencia
+                            en la programación Full-Stack, el desarrollo de
+                            aplicaciones web, API y móviles híbridas para Android e iOS, y manejo los lenguajes PHP,
+                            Python, JavaScript, HTML, CSS y SQL. También tengo experiencia en acústica, producción y
+                            posproducción de audio, y he trabajado con AutoCAD, Sketchup, Ease 4.3, Pro-Tools, Reaper y
+                            Filmora.
+                            Tengo habilidades en análisis, adaptabilidad, trabajo en equipo y planeación.
 
                         </p>
                     </div>
@@ -410,7 +463,7 @@
                     <div class="secundary-sections" id="simple-list-item-6">
                         <h3 class="title-section">PORTAFOLIO</h3>
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-sm-5 col-md-6 col-lg-6">
                                 <div class="card card-portafolio" style="width: 18rem;">
                                     <img src="./assets/img/geocantos.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -424,7 +477,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-sm-5 col-md-6 col-lg-6">
                                 <div class="card card-portafolio" style="width: 18rem;">
                                     <img src="./assets/img/usb-radio.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -439,7 +492,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-sm-5 col-md-6 col-lg-6">
                                 <div class="card card-portafolio" style="width: 18rem;">
                                     <img src="./assets/img/bajo-el-agua.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -453,7 +506,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-sm-5 col-md-6 col-lg-6">
                                 <div class="card card-portafolio" style="width: 18rem;">
                                     <img src="./assets/img/atmosfera.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -466,7 +519,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-sm-5 col-md-6 col-lg-6">
                                 <div class="card card-portafolio" style="width: 18rem;">
                                     <img src="./assets/img/logo-clubbing.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -636,25 +689,6 @@
                     -->
                 </div>
             </section>
-            <aside class="col-sm-3 main-cards">
-                <div class="card main-cards profile-card profile-section ">
-                    <img class="profile-img" src="assets/img/IMG-20211203-WA0006.jpeg" class="card-img-top"
-                        alt="profile">
-                    <div class="card-body section-info">
-                        <a class="links" Target="_blank" href="https://wa.link/13sr6b"><i class="bi bi-whatsapp"></i>
-                            +57 313
-                            8470360</a><br>
-                        <a class="links" Target="_blank" href="mailto:jdavidardilar@gmail.com"><i
-                                class="bi bi-envelope"></i>
-                            jdavidardilar@gmail.com</a><br>
-                        <a class="links" Target="_blank" href="https://www.instagram.com/_jd_codingsound/"><i
-                                class="bi bi-instagram"></i> _jd_codingsound</a><br>
-                        <a class="links" Target="_blank"
-                            href="https://www.linkedin.com/in/julian-david-ardila-rodriguez-b123b6190/"><i
-                                class="bi bi-linkedin"></i> Julian David Ardila Rodriguez</a><br>
-                    </div>
-                </div>
-            </aside>
         </div>
     </main>
 
